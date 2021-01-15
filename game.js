@@ -5,7 +5,7 @@ import { outsideGrid } from './grid.js'
 
 let lastRenderTime = 0;
 let gameOver = false;
-const gameBoard = document.getElementById(gameBoard);
+const gameBoard = document.getElementById('game-board');
 
 function main(currentTime) {
     if (gameOver) {
