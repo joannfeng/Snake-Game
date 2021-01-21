@@ -1,6 +1,6 @@
 import { getInputDirection } from "./input.js";
 
-export const SNAKE_SPEED = 5; // how many times snake moves per second
+export const SNAKE_SPEED = 6; // how many times snake moves per second
 const snakeBody = [{ x: 11, y: 11}];
 let newSegments = 0;
 
